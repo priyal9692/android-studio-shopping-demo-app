@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.manateeworks.barcodescanners.WebViewActivity">
+
+    <item
+        android:id="@+id/scun"
+        android:icon="@drawable/ic_barcode_scan"
+        android:orderInCategory="100"
+        android:title="Scun"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/google_talk"
+        android:icon="@drawable/ic_microphone"
+        android:orderInCategory="100"
+        android:title="Talk"
+        app:showAsAction="always" />
+
+
+
+
+</menu>
